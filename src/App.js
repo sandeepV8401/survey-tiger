@@ -1,9 +1,9 @@
 import logo from "./logo.png";
 import { Button } from "reactstrap";
 import { Switch, Route, Link, useHistory } from "react-router-dom";
-import CreateSurvey from "./components/CreateSurvey";
-import TakeSurvey from "./components/TakeSurvey";
-import ConfirmSurvey from "./components/ConfirmSurvey";
+import CreateSurvey from "./components/create-survey";
+import TakeSurvey from "./components/take-survey";
+import ConfirmSurvey from "./components/confirm-survey";
 import { useDispatch } from "react-redux";
 import { surveySlice, createSurvey } from "./store/surveySlice";
 import { unwrapResult } from "@reduxjs/toolkit";

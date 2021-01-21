@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import MultiSelect from "./MultiSelect";
-import SingleSelect from "./SingleSelect";
+import MultiSelect from "./multi-select";
+import SingleSelect from "./single-select";
 import { useParams, useLocation, useHistory } from "react-router-dom";
 import {
   Dropdown,
